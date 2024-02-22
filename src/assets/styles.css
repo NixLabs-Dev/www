@@ -1,0 +1,67 @@
+html,
+body {
+    background-color: black;
+    color: white;
+
+    /* Set the font family page wide */
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.9rem;
+
+    overflow: hidden;
+}
+
+p {
+    width: 40%;
+    word-wrap: normal;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+ul,
+li {
+    margin: 0;
+}
+
+/* Layout Styles */
+
+.section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+.no-decoration {
+    a {
+        text-decoration: none;
+    }
+}
+/* Highlighted Brand Color */
+.brand {
+    color: #b18bff;
+}
