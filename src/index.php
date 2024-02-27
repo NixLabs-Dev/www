@@ -21,7 +21,7 @@ $months = ($age_diff->y * 12) + $age_diff->m
 <body>
     <div id="intro" class="section">
         <h1><span class="brand">NiX</span>Labs</h1>
-        <p>Welcome to NixLabs, a cozy corner of the internet where developers like you come together to support small open-source projects. Founded <?php echo $months ?> months ago, we believe in the power of community and collaboration, working side by side to bring new ideas to life. From simple bash scripts to complex full-stack applications, our projects reflect the diverse interests and talents of our members. Whether you're a seasoned coder or just passionate about open-source, NixLabs is your home for making a difference on the net. From servers, to programmers, to eyes on your project, we do whatever we can to help you succeed in making great open-source projects.</p>
+        <p>Welcome to NixLabs, a cozy corner of the internet where developers like you come together to support small open-source projects. Founded <?php echo $months ?> months ago, we believe in the power of community and collaboration, working side by side to bring new ideas to life. From simple bash scripts to complex full-stack applications, our projects reflect the diverse interests and talents of our members. Whether you're a seasoned coder or just passionate about open-source, NixLabs is your home for making a difference on the net. From servers, to programmers, to eyes on your project, we do whatever we to aid in the progression of great open-source programs and tools. If you want to join us, a great place to start is <a class="brand" href="https://discord.gg/phEf3q2fFF">our discord</a>.</p>
 
     </div>
     <div id="stats" class="section">
