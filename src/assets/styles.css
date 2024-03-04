@@ -61,3 +61,13 @@ footer {
 .brand {
     color: #b18bff;
 }
+
+.dmcalist {
+    list-style: none;
+    word-wrap: normal;
+    width: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
