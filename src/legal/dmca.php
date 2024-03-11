@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <title>NixLabs - Homepage</title>
-    <link href="assets/styles.css" rel="stylesheet">
+    <title>NixLabs - DMCA Policy</title>
+    <link href="/assets/styles.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +11,7 @@
 
 <body>
     <div id="intro" class="section">
-        <h1 style="margin-bottom: 2rem;"><span class="brand">NiX</span>Labs</h1>
-        <h2 class="brand">DMCA Policy</h2>
+        <h1 style="margin-bottom: 2rem;"><span class="brand">NiX</span>Labs: DMCA Policy</h1>
         <p>We are compliant with all valid requests. NixLabs respects the intellectual property rights of others. It is therefore, our policy to expeditiously process, investigate, and address notices of alleged infringement, and to take appropriate action under the DMCA and other relevant intellectual property laws.</p>
         <br>
         <p>If you are a copyright owner or an agent thereof and you believe that any content hosted on our servers infringes your copyrights, then you may submit a notification pursuant to the Digital Millennium Copyright Act (DMCA) by providing our Designated Copyright Agent with the following information in writing to dmca (at) nixlabs (dot) dev</p>
@@ -40,15 +39,7 @@
 
     </div>
 
-    <footer>
-        <span>Copyright <span class="brand">NixLabs</span> <?php echo date(
-            "Y"
-        ); ?>.</span>
-        <span class="no-decoration">
-            <a href="https://bsky.app/profile/nixlabs.dev">Bluesky Social</a> /
-            <a href="https://cloud.nixlabs.dev">NixLabs Cloud</a> /
-            <a href="https://bgp.he.net/AS216268">HE BGP Toolkit</a>
-        </span>
-    </footer>
+    <?php require "../partials/footer.php" ?>
+
 </body>
 <html>

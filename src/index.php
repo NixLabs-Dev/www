@@ -19,7 +19,7 @@ $months = $age_diff->y * 12 + $age_diff->m;
 </head>
 
 <body>
-    <div id="intro" class="section"">
+    <div id="intro" class="section">
         <h1><span class="brand">NiX</span>Labs</h1>
         <p>Welcome to NixLabs, a cozy corner of the internet where developers like you come together to support small open-source projects. Founded <?php echo $months; ?> months ago, we believe in the power of community and collaboration, working side by side to bring new ideas to life. From simple bash scripts to complex full-stack applications, our projects reflect the diverse interests and talents of our members. Whether you're a seasoned coder or just passionate about open-source, NixLabs is your home for making a difference on the net. From servers, to programmers, to eyes on your project, we do whatever we to aid in the progression of great open-source programs and tools. If you want to join us, a great place to start is <a class="brand" href="https://discord.gg/phEf3q2fFF">our discord</a>.</p>
         <br>
@@ -28,8 +28,7 @@ $months = $age_diff->y * 12 + $age_diff->m;
         <h2>How are we funded</h2>
         <p>Since we are basically a charity, our founder Owen also sells colocation and server hosting services personally that aid in the finances of NixLabs. Most of that income is invested into the servers and software required to keep NixLabs operational. We also take donations (however our donations page isnt quite operational yet) from all kinds of people who believe in our mission.</p>
 
-    </div>
-    <div>
+        <br>
         <h2>Who we help</h2>
         <ul>
             <li>Open-Source Projects</li>
@@ -52,18 +51,9 @@ $months = $age_diff->y * 12 + $age_diff->m;
             <li>NixLabs GitLab: A hosted git platform with unlimited CI services. <b>(coming soon)</b></li>
             <li>NixLabs Pages: A staic-site hosting platform, free to all of our members. <b>(coming soon)</b></li>
         </ul>
-    </div>
 
-    <footer>
-        <span>Copyright <span class="brand">NixLabs</span> <?php echo date(
-            "Y"
-        ); ?>.</span>
-        <span class="no-decoration">
-            <a href="https://bsky.app/profile/nixlabs.dev">Bluesky Social</a> /
-            <a href="https://cloud.nixlabs.dev">NixLabs Cloud</a> /
-            <a href="https://bgp.he.net/AS216268">HE BGP Toolkit</a> /
-            <a href="dmca.php" class="brand">DMCA Policy</a>
-        </span>
-    </footer>
+        
+    </div>
+    <?php require "./partials/footer.php" ?>
 </body>
 <html>
